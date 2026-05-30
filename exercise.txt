@@ -1,0 +1,3 @@
+Create custom component that will detect mobile number 
+Create custom component that will detect pan card no 
+Create custom component that will detect date in any valid format 

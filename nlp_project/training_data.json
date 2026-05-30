@@ -1,0 +1,192 @@
+[
+  {
+    "text": "Learn Python, Data Science and Web Development at The Easylearn Academy.",
+    "entities": [
+      [
+        6,
+        12,
+        "COURSE"
+      ],
+      [
+        14,
+        26,
+        "COURSE"
+      ],
+      [
+        31,
+        46,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "Our new DevOps and Kubernetes bootcamp is now enrolling.",
+    "entities": [
+      [
+        8,
+        14,
+        "COURSE"
+      ],
+      [
+        19,
+        29,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "Join our Machine Learning and Artificial Intelligence course today.",
+    "entities": [
+      [
+        9,
+        25,
+        "COURSE"
+      ],
+      [
+        30,
+        53,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "We teach React, Node.js, Django and Flutter development.",
+    "entities": [
+      [
+        9,
+        14,
+        "COURSE"
+      ],
+      [
+        16,
+        23,
+        "COURSE"
+      ],
+      [
+        25,
+        31,
+        "COURSE"
+      ],
+      [
+        36,
+        43,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "Excel, PowerPoint and SQL are in high demand.",
+    "entities": [
+      [
+        0,
+        5,
+        "COURSE"
+      ],
+      [
+        7,
+        17,
+        "COURSE"
+      ],
+      [
+        22,
+        25,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "Enroll in our JavaScript, TypeScript and Angular bootcamp.",
+    "entities": [
+      [
+        14,
+        24,
+        "COURSE"
+      ],
+      [
+        26,
+        36,
+        "COURSE"
+      ],
+      [
+        41,
+        48,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "The Full Stack Web Development program starts next month.",
+    "entities": [
+      [
+        4,
+        32,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "Learn Digital Marketing, SEO and Social Media Marketing.",
+    "entities": [
+      [
+        6,
+        23,
+        "COURSE"
+      ],
+      [
+        25,
+        28,
+        "COURSE"
+      ],
+      [
+        33,
+        55,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "Our Cyber Security and Ethical Hacking course is very popular.",
+    "entities": [
+      [
+        4,
+        18,
+        "COURSE"
+      ],
+      [
+        23,
+        38,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "Become a Data Analyst with our comprehensive course.",
+    "entities": [
+      [
+        11,
+        23,
+        "COURSE"
+      ]
+    ]
+  },
+  {
+    "text": "We offer AWS, Azure and Google Cloud certification training.",
+    "entities": [
+      [
+        9,
+        12,
+        "COURSE"
+      ],
+      [
+        14,
+        19,
+        "COURSE"
+      ],
+      [
+        24,
+        36,
+        "COURSE"
+      ]
+    ]
+  }
+]

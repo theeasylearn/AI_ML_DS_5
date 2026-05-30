@@ -1,0 +1,41 @@
+What This Project Does — In Simple Words
+Imagine you have thousands of course advertisement sentences and you want to find out which course names are mentioned in each sentence — without reading them one by one manually.
+This project teaches a computer to do that job automatically.
+You show it examples like:
+
+"Learn Python, Data Science and Web Development at The Easylearn Academy."
+
+After seeing enough examples, the computer learns the pattern — and can now read any new sentence and instantly pull out the course names on its own.
+
+One Line Summary
+
+An intelligent text scanner that automatically finds and extracts course names from any sentence — without any manual work.
+
+
+Where This Can Be Used
+Education Platforms — Automatically tag and categorize courses from thousands of course descriptions on platforms like Udemy, Coursera, or any academy website.
+Job Portals — Read job descriptions and extract required skills and courses automatically. For example, scanning "Must know Python, SQL and Power BI" and pulling out those three skills instantly.
+Chatbots — A student types "I want to learn React and Node.js" — the chatbot instantly understands which courses they are asking about and gives a direct reply.
+Resume Screening — Scan thousands of resumes and extract what courses or certifications each candidate has completed, saving hours of manual reading.
+Search Engines — When a student searches on an academy website, the engine uses extracted course names to return better, more relevant results.
+Data Analytics — A business wants to know which courses are most talked about in student feedback or reviews — this model scans all reviews and counts course mentions automatically.
+WhatsApp / Email Bots — A student sends a message like "Do you have a Django and Flutter course?" — the system automatically understands the two course names and checks availability without any human involvement.
+
+The Bigger Picture
+This project is a small but real example of Natural Language Processing (NLP) — the technology behind Google Search, Siri, ChatGPT, and every smart text tool you use daily. You built a tiny version of that same technology, trained specifically for your own use case, using your own data.
+
+
+Create create_data.py 
+     Writes 25 sentences with course names marked (start position, end position, label) and saves them to training_data.json.
+python convert_data.py
+    Reads that JSON and converts it into spaCy's binary format (train.spacy + dev.spacy) which the training engine can actually read.
+
+python -m spacy train config.cfg --output ./output --paths.train ./train.spacy --paths.dev ./dev.spacy
+    
+    Generates config.cfg (the settings file) and runs the training — spaCy reads your examples repeatedly until it learns the pattern of what a course name looks like.
+    
+python test_model.py 
+     Loads the trained model and runs it on brand new sentences to check if it correctly finds course names it has never seen before.
+python save_model.py
+    Saves the trained model to a permanent folder (my_course_extractor/) so 
+python use_model.py
