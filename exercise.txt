@@ -1,3 +1,13 @@
 Create custom component that will detect mobile number 
 Create custom component that will detect pan card no 
 Create custom component that will detect date in any valid format 
+
+nlp project
+--------------------------------------------------------
+create NLP project that detect indian festival names and their dates. consider all religious and not religious festivals. 
+
+create NLP project that detect dish is veg dish or non veg dish. also extract non-veg ingredients 
+    prompt 
+    
+    what is the typical non-veg ingredients in dish that we can use detect dish is non-veg dish 
+ 
