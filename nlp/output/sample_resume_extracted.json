@@ -1,0 +1,60 @@
+{
+  "filename": "sample_resume.pdf",
+  "contact": {
+    "name": "MALAY JOSHI, UI/UX DESIGNER",
+    "email": "malayj66@gmail.com",
+    "phone": "8734863648",
+    "location": "Ahmedabad"
+  },
+  "skills": [
+    "HTML",
+    "CSS",
+    "Leadership"
+  ],
+  "education": [
+    {
+      "degree": "EXPERIENCE\nUI/UX Designer | ZEEBU, Ahmedabad, Gujarat\nJul 2024 \u2013 PRESENT\nZEEBU MASTER APP\nDesign complete mobile DeFi experience showcasing portfolio analytics, stake oversight, token exchange hub, and ZBU \nacquisition tools with live risk assessment displays.",
+      "year": "2024"
+    },
+    {
+      "degree": "Develop a proper design system powering Zeebu Master app, establishing visual and functional consistency across all \nscreens through creation of components, variants, variables, and supporting assets.",
+      "year": null
+    },
+    {
+      "degree": "education\nPursuing Bachelor of Computer Applications (BCA)\nSwami Sahajanand College of Commerce and Management.",
+      "year": null
+    }
+  ],
+  "experience": [
+    {
+      "description": "Specializes in designing for varied sectors, including Decentralized Finance (DeFi) and web3 Technology, with a focus on \ntranslating complex requirements into clean, accessible interfaces.",
+      "company": null,
+      "duration": null
+    },
+    {
+      "description": "Skilled in conducting user research and applying design \nthinking methodologies to address challenging user needs through continuous iteration and validation.",
+      "company": null,
+      "duration": null
+    },
+    {
+      "description": "Proven ability to bridge \ndesign and development by partnering closely with Development teams, product owners, and stakeholders to ship responsive, \nimpactful solutions in fast-paced environments.",
+      "company": null,
+      "duration": null
+    },
+    {
+      "description": "Integrate seamless wallet integration via MetaMask/WalletConnect plus user preferences panel, night mode switch, alerts \nsystem, and affiliate rewards tracker.",
+      "company": null,
+      "duration": null
+    },
+    {
+      "description": "Created sophisticated trading panels featuring currency picker, optimal path analyzer (PancakeSwap/Uniswap), aggregator \nCEX/DEX selector, and deal status tracker.",
+      "company": null,
+      "duration": null
+    }
+  ],
+  "certifications": [
+    "Tools & Technologies\nFigma, Adobe Illustrator, Framer, Spline\u00a0 3d, Lovable.dev AI builder, Google Antigravity, Notion, WordPress, SVGator, HTML, \nCSS, Responsive Design.",
+    "Bhavnagar, Gujarat\nCERTIFICATION\nUI/UX with Figma and Adobe XD\nCompleted an in-depth UI/UX design course in Figma and Adobe XD, gaining advanced skills in wireframing, prototyping, and \nuser testing."
+  ],
+  "extracted_at": "2026"
+}
