@@ -25,7 +25,7 @@ def store_data_into_database(result):
         cursor.execute(insert_resume, (result.get('filename'),extracted_at,json.dumps(result)))
         
         resume_id = cursor.lastrowid  # Get the auto-generated ID
-        print(f"✅ Resume inserted with ID: {resume_id}")
+        print(f"Resume inserted with ID: {resume_id}")
 
         # 2. Insert Contact Information
         contact = result.get('contact', {})
@@ -40,7 +40,7 @@ def store_data_into_database(result):
             contact.get('phone'),
             contact.get('location')
         ))
-        print("✅ Contact info stored")
+        print("Contact info stored")
 
         # 3. Insert Skills
         skills = result.get('skills', [])
@@ -48,7 +48,7 @@ def store_data_into_database(result):
             insert_skill = "INSERT INTO resume_skills (resume_id, skill) VALUES (%s, %s)"
             skill_values = [(resume_id, skill) for skill in skills]
             cursor.executemany(insert_skill, skill_values)
-            print(f"✅ {len(skills)} skills stored")
+            print(f"{len(skills)} skills stored")
 
         # 4. Insert Education
         education_list = result.get('education', [])
@@ -60,7 +60,7 @@ def store_data_into_database(result):
             """
             edu_values = []
             for edu in education_list:
-                if isinstance(edu, dict):
+                if isinstance(edu, dict) == True:
                     edu_values.append((
                         resume_id,
                         edu.get('degree'),
@@ -83,7 +83,7 @@ def store_data_into_database(result):
             """
             exp_values = []
             for exp in experience_list:
-                if isinstance(exp, dict):
+                if isinstance(exp, dict) == True:
                     exp_values.append((
                         resume_id,
                         exp.get('job_title') or exp.get('position'),
